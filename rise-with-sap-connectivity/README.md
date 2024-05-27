@@ -5,8 +5,8 @@ Reference: https://docs.aws.amazon.com/sap/latest/general/connectivity-rise.html
 
 ## Connectivity between AWS Accounts
 The following two options are available to connect your AWS account with AWS account managed by SAP on the third layer.
-Option 1 - Amazon VPC Peering
-Option 2 - AWS Transit Gateway
+* Option 1 - Amazon VPC Peering
+* Option 2 - AWS Transit Gateway
 
 ### Amazon VPC Peering
 
