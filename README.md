@@ -12,7 +12,7 @@ That's the company's promise: "We promise you we won’t hide your data from you
 # Instructions
 
 ## Online Version
-1.1) Download the XML file.
+1.1) Download the diagram XML file.
 
 ![SAP on AWS - GitHub XML File Download](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/57cbe757-ed8f-4f9a-9a59-bbb4cda2b7b9)
 
@@ -21,7 +21,7 @@ That's the company's promise: "We promise you we won’t hide your data from you
 ![SAP on AWS - Draw io Online Version](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/6412d55f-9bb4-43c6-a85c-64b3ac216100)
 
 ## Desktop Version
-2.1) Download the XML file.
+2.1) Download the diagram XML file.
 
 ![SAP on AWS - GitHub XML File Download](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/496e648b-cbdb-419d-bd16-0956716a6da8)
 
