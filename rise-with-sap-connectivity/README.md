@@ -18,6 +18,19 @@ Data transfer for VPC peering within an Availability Zone is free, and for acros
 
 ![VPC Peering](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/e29dd624-93bc-4057-aab5-e41008beb7d9)
 
+### AWS Transit Gateway
+
+AWS Transit Gateway is a network transit hub to interconnect Amazon VPCs. It acts as a cloud router, resolving complex peering setup issues by acting as the central communication hub. You need to establish this connection with AWS account managed by SAP only once.
+
+To establish connection with AWS account managed by SAP, create and share AWS Transit Gateway in your AWS account. SAP then creates an attachment to enable traffic flow through an entry in route table. As AWS Transit Gateway resides in your AWS account, you can retain control over traffic routing.
+
+For cross-Region peering, connect AWS Transit Gateway in AWS account managed by SAP with AWS Transit Gateway in a different Region in your AWS account.
+
+![AWS Transit Gateway](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/0b9a5633-fd0e-4a3a-bf42-8f00d5188926)
+
+
+
+
 
 
 
