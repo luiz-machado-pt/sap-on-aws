@@ -16,7 +16,8 @@ VPC peering works across AWS Regions. All inter-Region traffic is encrypted with
 
 Data transfer for VPC peering within an Availability Zone is free, and for across Availability Zones is charged per-GB.
 
-![VPC Peering](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/e29dd624-93bc-4057-aab5-e41008beb7d9)
+![VPC Peering](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/27983134-2b25-44a5-8166-93a258a956cf)
+
 
 ### AWS Transit Gateway
 
