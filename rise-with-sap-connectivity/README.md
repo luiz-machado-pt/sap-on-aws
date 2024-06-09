@@ -16,7 +16,7 @@ VPC peering works across AWS Regions. All inter-Region traffic is encrypted with
 
 Data transfer for VPC peering within an Availability Zone is free, and for across Availability Zones is charged per-GB.
 
-![VPC Peering](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/27983134-2b25-44a5-8166-93a258a956cf)
+![SAP on AWS - RISE with SAP Connectivity-VPC Peering drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/c960d73c-ed4a-47c0-a1fb-528cad957390)
 
 
 ### AWS Transit Gateway
@@ -27,7 +27,8 @@ To establish connection with AWS account managed by SAP, create and share AWS Tr
 
 For cross-Region peering, connect AWS Transit Gateway in AWS account managed by SAP with AWS Transit Gateway in a different Region in your AWS account.
 
-![AWS Transit Gateway](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/0b9a5633-fd0e-4a3a-bf42-8f00d5188926)
+![SAP on AWS - RISE with SAP Connectivity-AWS Transit Gateway drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/ce88f8ca-7be1-4e32-90ae-a4b6ddcf21ce)
+
 
 
 
