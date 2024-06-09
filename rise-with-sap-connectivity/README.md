@@ -29,7 +29,21 @@ For cross-Region peering, connect AWS Transit Gateway in AWS account managed by 
 
 ![SAP on AWS - RISE with SAP Connectivity-AWS Transit Gateway drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/ce88f8ca-7be1-4e32-90ae-a4b6ddcf21ce)
 
+## Connecting On-Premise to RISE with SAP using your AWS account
+You can establish connectivity between on-premises and RISE with SAP VPC using you AWS account. This method provides you with more control but also requires managing AWS services in your AWS account. You can use any one of the following options:
 
+* AWS Transit Gateway – Share AWS Transit Gateway resource in your AWS account with AWS account managed by SAP.
+* AWS VPN with AWS Transit Gateway – Create an IPsec VPN connection between your remote network and transit gateway over the internet.
+* Direct Connect gateway – Create a Direct Connect gateway with a transit or virtual private gateway.
+
+
+The following image shows this option within the same AWS Region.
+
+![SAP on AWS - RISE with SAP Connectivity-On-premise to AWS Transit Gateway - Same Region drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/986fee23-6f6e-43f6-a19c-a9e737d5a40e)
+
+The following image shows this option across different AWS Regions.
+
+![SAP on AWS - RISE with SAP Connectivity-On-premise to AWS Transit Gateway - Different Region drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/a09681a7-291c-4acb-838a-c1361d3d4f55)
 
 
 
