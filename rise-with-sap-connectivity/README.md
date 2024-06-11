@@ -47,6 +47,18 @@ The following image shows this option across different AWS Regions.
 ![SAP on AWS - RISE with SAP Connectivity-On-premise to AWS Transit Gateway - Different Region drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/a09681a7-291c-4acb-838a-c1361d3d4f55)
 
 
+## SAP Business Technology Platform (BTP) with RISE with SAP on AWS
+You can use SAP Business Technology Platform BTP services on AWS to extend the functionality of the RISE with SAP. SAP recommends SAP Cloud Connector to connect RISE with SAP VPC with SAP BTP via internet. When both RISE with SAP and SAP BTP run on AWS, the network traffic is encrypted and contained within AWS Global Network, without going through the internet. This provides better security and performance for any integration use-cases between RISE with SAP and SAP BTP.
+
+SAP also offers SAP Private Link Service for SAP BTP on AWS. SAP Private Link connects SAP BTP on AWS with a secure connection without using public IPs in your AWS account.
+
+![SAP on AWS - RISE with SAP Connectivity-BTP - Same Region drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/1d59aeae-a46b-4879-8160-7121d9b28f57)
+
+For AWS services across AWS Regions, you can create a VPC in the same AWS Region as your SAP BTP Cloud Foundry Runtime, and connect these VPCs via VPC peering or AWS Transit Gateway. 
+
+![SAP on AWS - RISE with SAP Connectivity-BTP - Different Region drawio](https://github.com/luiz-machado-pt/sap-on-aws/assets/170890096/051511dd-31db-4ea2-88e7-f0d521f5191a)
+
+
 
 
 
